@@ -273,21 +273,7 @@ h1
  opacity: 1;
  transform:translateY(-3%) scale(1.09)
 }
-@keyframes pulsation
-{
- 0% {
-     transform: translateY(0%);
-    
-     
- }
- 50% {
-    transform: translateY(20%);
-}
- 
- 100% {
-     transform: translateY(0%);
- }
-}
+
 .img_resto img
 {
   width: 100%;

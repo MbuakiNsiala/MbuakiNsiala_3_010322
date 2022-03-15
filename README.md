@@ -59,3 +59,7 @@ Vous pouvez retrouver le [brief complet ici](https://s3-eu-west-1.amazonaws.com/
 - Validation W3C HTML : à passer, warning autorisés
 - Validation W3C CSS : à passer, warning autorisés
 - Compatibilité : Dernières versions de Chrome, Firefox & Safari
+
+## Contact
+- Vous êtes étudiant Openclassrooms ? vous pouvez me contacter sur le workplace
+- Vous pouvez également me retrouver sur linkedin "Nsiala MBUAKI KABA"

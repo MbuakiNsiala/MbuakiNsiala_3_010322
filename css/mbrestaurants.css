@@ -88,6 +88,7 @@
      box-shadow: 6px 6px 6px 6px #e4e0e0;
      animation: appear 3s;
      overflow: hidden;
+     min-width: 250px;
      
      
  }
@@ -266,4 +267,8 @@
    height: 25px;
    border-radius: 20px;
   
+ }
+ main, footer
+ {
+     min-width: 400px;
  }

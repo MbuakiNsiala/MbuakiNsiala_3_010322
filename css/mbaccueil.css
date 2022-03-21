@@ -175,6 +175,7 @@ h1
 #section_restaurants
 {
     background-color: #F7F7F7;
+    min-width: 340px;
 }
 .section_restaurants_title
 {

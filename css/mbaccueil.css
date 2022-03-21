@@ -354,3 +354,11 @@ margin: 0px;
   color: white;
   
 }
+footer, #restaurant
+{
+    min-width: 300px;
+}
+form,#section_reservation
+{
+    min-width: 350px;
+}

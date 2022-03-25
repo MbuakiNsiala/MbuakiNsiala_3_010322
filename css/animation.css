@@ -92,3 +92,24 @@
          transform: rotate(0deg);
      }
  }
+
+ @-webkit-keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-49px);
+              transform: translateX(-49px);
+    }
+  }
+  @keyframes slide-left {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-49px);
+              transform: translateX(-49px);
+    }
+  }

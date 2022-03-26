@@ -113,3 +113,23 @@
               transform: translateX(-49px);
     }
   }
+  @-webkit-keyframes slide-leftdesktop {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-89px);
+              transform: translateX(-89px);
+    }
+  }
+  @keyframes slide-leftdesktop {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(-89px);
+              transform: translateX(-89px);
+    }
+  }

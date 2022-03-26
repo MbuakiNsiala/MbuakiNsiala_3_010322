@@ -160,7 +160,6 @@ h1
     position: relative;
     left: -24px;
     top:1px;
-    
     background-image: linear-gradient(to top,#9356DC,#FF79DA );
     background-clip: text;
     -webkit-background-clip:text;
@@ -180,9 +179,10 @@ h1
 .menu:hover .conteneur_price_slide
 {
    
-    -webkit-animation: slide-left 0.4s ease-in-out both;
-    animation: slide-left 0.4s ease-in-out both;
-    margin: 0;
+    -webkit-animation: slide-left 0.5s ease-in-out both;
+    animation: slide-left 0.5s ease-in-out both;
+    animation: slide-leftdesktop 700ms both;
+    
     
 }
 .conteneur_price_slide
@@ -223,7 +223,7 @@ h1
 }
 .menu:hover i
 {
-    animation: rotation 100ms;
+    animation: rotation 600ms;
 }
 
 

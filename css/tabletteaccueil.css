@@ -1,0 +1,365 @@
+/* Header/Localisation code */
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main
+{
+    margin: auto;
+
+}
+header
+{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;  
+    position: fixed;
+    top: -15px;
+    height: 60px;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.conteneur_localisation
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: #F2F2F2;
+  box-shadow: 6px 6px 6px 6px rgb(230, 228, 228);
+}
+
+
+form
+{
+  margin-top: 50px;  
+    }
+input
+{
+    outline: none;
+    border: 2px solid #9356DC;
+    background-color: white;
+    border-radius: 15px;
+    height: 35px;
+}
+
+::placeholder
+{
+    
+    font-weight: bold;
+    color: black;
+  
+}
+
+
+.conteneur_child_localisation
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40px; ;
+}
+.localisation_ville, .localisation_icon
+{
+    font-size: 1.2em;
+}
+
+/* Section /reservation code */
+#section_reservation
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+h1
+{  
+    font-size:1.5em; 
+    margin-bottom: 0px;
+    
+}
+.découvrez
+{
+    font-size: 1.2em;
+}
+.conteneur_button
+{
+    display: flex;
+    justify-content: center;   
+    
+}
+.btn
+{
+    height: 45px;
+    width: 240px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    background-image: linear-gradient(to top,#9356DC,#FF79DA );
+    margin-bottom: 30px;
+}
+.btn:hover
+{
+  box-shadow: 6px 3px 6px rgb(153, 147, 147);
+  opacity: 0.9;
+}
+
+/* Section_fonctionnement */
+.conteneur_fonctionnement
+{
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    justify-content: flex-start;
+ 
+    
+}
+.Carte_choisissez
+{
+    margin: auto;
+    height: 80px;
+    width: 350px;
+    background-color: #F7F7F7;
+    border-radius: 25px ;
+    box-shadow: 6px 6px 6px #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+   
+   
+}
+
+.Carte_choisissez:hover
+{
+    transition: ease-in-out;
+    transform: scale(1.01);
+    background: #f5edff;
+ 
+}
+.Carte_titre
+{
+    font-size: 1em;
+}
+.Carte_numero
+{
+    background-color: #9356DC;
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -35px;
+}
+
+/* Section_restaurants */
+
+#section_restaurants
+{
+    background-color: #F7F7F7;
+    min-width: 340px;
+}
+.section_restaurants_title
+{
+    padding-top: 40px;   
+}
+.conteneur_carte_restaurant
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.carte_restaurant
+{
+    height: 370px;
+    box-shadow: 6px 6px 6px 6px #e0dfdf;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+.Nouveau_bloc
+{
+  position: absolute;
+  right: 35px;
+  bottom: -60px;
+  background-color: #a9e0d1;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #3b8468;
+  justify-content: center;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  animation: pulsation 1s linear infinite ;
+  
+}
+.Nouveau_bloc2
+{
+    position: absolute;
+    right: 35px;
+    bottom: -480px;
+    background-color: #a9e0d1;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #3b8468;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    animation: pulsation 1s linear infinite;
+    
+}
+.coeur
+{
+    display: flex;
+    justify-content: center;
+}
+.has i
+{
+    position: relative;
+    left: -28px;
+    top: 1px;
+    background-image: linear-gradient(to top,#9356DC,#FF79DA );
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+   
+    
+}
+
+
+
+.has i:hover
+{
+ opacity: 1;
+ transform:translateY(-5%) scale(1.1);
+
+}
+
+.img_resto img
+{
+  width: 100%;
+  height: 280px;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px;
+  object-fit: cover;
+}
+.conteneur_description
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.conteneur_description_child
+{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.restaurant_name, .restaurant_localité
+{
+    margin: 0px;
+    font-size: 1.3em;
+   
+}
+
+.restaurant_localité
+{
+    font-size: 1em;
+    font-family: 'roboto', sans-serif;
+}
+.coeur
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    width: 50px;
+    font-size: 1.7em;   
+}
+
+
+
+
+/* FOOTER */
+footer
+{
+  background-color: rgb(54, 53, 53);
+  padding: 20px;
+ 
+}
+.conteneur_child_footer
+{
+    display: flex;
+    flex-direction: column;  
+    
+}
+.logo_footer
+{
+font-size: 1.4em;
+font-weight: 700;
+color: white;
+font-style: italic;
+font-family: 'Shrikhand', cursive;
+margin: 0px;
+
+}
+
+.contenu_footer, .contenu_footer_devenir
+{
+  display: flex;
+  align-items: center;
+  width: 220px;
+  justify-content: space-between;
+  color: white;
+ 
+}
+.contenu_footer_devenir
+{
+  width:185px ;
+}
+.title_proposer, .title_footer
+{
+    margin: 5px 0px 5px 0px ; 
+    font-size: 1.2em;
+    
+}
+.title_footer a
+{
+  color: white;
+  
+}
+footer, #restaurant
+{
+    min-width: 300px;
+}
+form,#section_reservation
+{
+    min-width: 350px;
+}

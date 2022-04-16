@@ -76,7 +76,7 @@
  .menu
  {
      height: 80px;
-     width: 540px;
+     width: 370px;
      border-radius: 20px;
      background-color: white;
      display: flex;
@@ -91,7 +91,15 @@
      overflow: hidden;
      
  }
- .menu:hover
+ .title_bbottom
+{
+    border-bottom: 3px solid #99E2D0;
+}
+
+
+
+
+  .menu:hover
  {
  
      cursor: pointer;

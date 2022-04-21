@@ -114,7 +114,7 @@
     
 
  }
- h2, h3 
+ h2, p 
  {
      text-overflow: ellipsis;
      white-space: nowrap;

@@ -116,6 +116,10 @@ h1
     white-space: nowrap;
 
 }
+.title_entree
+ {
+     font-weight: 400;
+ }
 .title_epd
 {
  margin: 0px;

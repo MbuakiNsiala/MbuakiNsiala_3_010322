@@ -175,7 +175,7 @@ h1
 #section_restaurants
 {
     background-color: #F7F7F7;
-    min-width: 340px;
+  
 }
 .section_restaurants_title
 {
@@ -355,11 +355,4 @@ margin: 0px;
   color: white;
   
 }
-footer, #restaurant
-{
-    min-width: 300px;
-}
-form,#section_reservation
-{
-    min-width: 350px;
-}
+

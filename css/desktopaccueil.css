@@ -370,3 +370,34 @@ margin: 0px;
   color: white;
   
 }
+/*********** NOUVEAU BLOC *****************/
+@media screen and (max-width:1280px)
+{
+    .Nouveau_bloc
+    {
+      position: absolute;
+      bottom: 50px;
+      left: 480px;
+    }
+    .Nouveau_bloc2
+    {
+        position: absolute;
+        bottom: 50px;
+        right: 70px;
+    }
+}
+@media screen and (max-width:1024px)
+{
+    .Nouveau_bloc
+    {
+      position: absolute;
+      bottom: -150px;
+      left: 360px;
+    }
+    .Nouveau_bloc2
+    {
+        position: absolute;
+        bottom: -150px;
+        right: 60px;
+    }
+}

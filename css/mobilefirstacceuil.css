@@ -356,3 +356,34 @@ margin: 0px;
   
 }
 
+
+@media screen and (max-width:380px)  {
+
+    footer, #section_restaurants,.conteneur_localisation,#section_reservation
+    {
+        max-width: 400px;
+    }
+    
+     
+  }
+  @media screen and (max-width:350px)  {
+
+    main
+    {
+        width: 400px;
+    }
+    
+    .Nouveau_bloc
+    {
+     position: absolute;
+     right: -105px;
+     bottom: -310px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -730px;
+     left: 285px; 
+    }
+  }

@@ -234,7 +234,7 @@
  }
  .contenu_footer_devenir
  {
-   width:185px ;
+   width:190px ;
  }
  .title_proposer, .title_footer
  {
@@ -295,4 +295,38 @@
    height: 25px;
    border-radius: 20px;
   
+ }
+ 
+ @media screen and (max-width:320px) 
+ {
+     .conteneur_titledescription
+     {
+         font-size: 0.8em;
+         width: 77%;
+         
+        
+     }
+     .menu
+     {
+         padding-left: 5px;
+     }
+     
+
+ }
+
+ @media screen and (max-width:280px) 
+ {
+   .conteneur_price_slide
+   {
+       width: 120px;
+
+   }
+   .conteneur_titledescription
+   {
+       font-size: 0.8em;
+       width: 76%;
+       
+      
+   }
+
  }

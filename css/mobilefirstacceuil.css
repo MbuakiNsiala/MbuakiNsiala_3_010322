@@ -466,19 +466,35 @@ margin: 0px;
     }
 }
 /* Calibrage bloc "nouveau" accueil pour galaxy fold */
-@media screen and (max-width:280px)
+@media screen and (min-width:270px)
 {
     .Nouveau_bloc2
     {
         position: absolute;
         right: 55px;
-        bottom: -730px;
+        bottom: -130px;
     }
     .Nouveau_bloc
     {
         position: absolute;
         right: -100px;
-        bottom: -320px;
+        bottom: -120px;
     }
 }
 
+
+@media screen and (max-width:320px)
+{
+    .Nouveau_bloc2
+    {
+        position: absolute;
+        right: 50px;
+        bottom: -540px;
+    }
+    .Nouveau_bloc
+    {
+        position: absolute;
+        right: -60px;
+        bottom: -120px;
+    }
+}

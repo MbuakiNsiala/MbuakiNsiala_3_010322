@@ -375,6 +375,57 @@ margin: 0px;
     
      
   }
+@media screen and (max-width:393px) {
+      
+      
+    .Nouveau_bloc
+    {
+     position: absolute;
+     right: 10px;
+     bottom: -110px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -530px;
+     left: 285px; 
+    }
+  }
+
+@media screen and (max-width:375px) {
+      
+      
+    .Nouveau_bloc
+    {
+     position: absolute;
+     right: 13px;
+     bottom: -290px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -710px;
+     left: 265px; 
+    }
+  }
+  @media screen and (max-width:360px) 
+  {
+    .Nouveau_bloc
+    {
+     position: absolute;
+     right: 15px;
+     bottom: -220px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -640px;
+     left: 240px; 
+    }
+  }
   @media screen and (max-width:350px)  {
 
     main
@@ -385,116 +436,32 @@ margin: 0px;
     .Nouveau_bloc
     {
      position: absolute;
-     right: -105px;
-     bottom: -310px; 
+     right: -60px;
+     bottom: -110px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -530px;
+     left: 285px; 
+    }
+  }
+  @media screen and (max-width:280px)
+  {
+    .Nouveau_bloc
+    {
+     position: absolute;
+     left: 270px;
+     bottom: -320px; 
     }
  
     .Nouveau_bloc2
     {
      position: absolute;
      bottom: -730px;
-     left: 285px; 
+     left: 275px; 
     }
   }
   /* ***************************** BLOC NOUVEAU  1 & 2 **************************** */
 /* Calibrage bloc "nouveau" accueil pour Iphone xr samsung s20 ultra et galaxy A51/71 */
-@media screen and (max-width:414px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 35px;
-        bottom: -480px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: 35px;
-        bottom: -60px;
-    }
-
-}
-/* Calibrage bloc "nouveau" accueil pour Iphone 12 pro et pixel 5 */
-@media screen and (max-width:393px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 35px;
-        bottom: -530px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: 35px;
-        bottom: -120px;
-    }
-
-}
-
-/* Calibrage bloc "nouveau" accueil pour Iphone SE*/
-
-@media screen and (max-width:375px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 25px;
-        bottom: -710px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: 25px;
-        bottom: -290px;
-    }
-}
-/* Calibrage bloc "nouveau" accueil pour galaxy s8 */
-@media screen and (max-width:360px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 25px;
-        bottom: -650px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: 25px;
-        bottom: -220px;
-    }
-}
-/* Calibrage bloc "nouveau" accueil pour galaxy fold */
-@media screen and (min-width:270px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 55px;
-        bottom: -130px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: -100px;
-        bottom: -120px;
-    }
-}
-
-
-@media screen and (max-width:320px)
-{
-    .Nouveau_bloc2
-    {
-        position: absolute;
-        right: 50px;
-        bottom: -540px;
-    }
-    .Nouveau_bloc
-    {
-        position: absolute;
-        right: -60px;
-        bottom: -120px;
-    }
-}

@@ -1,4 +1,7 @@
-
+body
+{
+    margin: 0px;
+}
  *
  {
      font-family: 'Roboto', sans-serif;
@@ -11,6 +14,10 @@
      justify-content: space-between;
      width: 300px;
     
+ }
+ .title_bbttom
+ {
+     border: 1px solid red;
  }
  header
  {
@@ -32,7 +39,7 @@
  .back
  {
     justify-content: flex-start;
-    width: 100px;
+    width: 50px;
     font-size: 1.5em;
     
  }
@@ -147,10 +154,7 @@
      font-size: 0.9em;
      margin: 0px;
  }
- .title_bbottom
- {
-     border-bottom: 3px solid #99E2D0;
- }
+
  .conteneur_button
  {
    display: flex;

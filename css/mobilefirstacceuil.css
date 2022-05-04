@@ -366,15 +366,7 @@ margin: 0px;
 }
 
 
-@media screen and (max-width:380px)  {
 
-    footer, #section_restaurants,.conteneur_localisation,#section_reservation
-    {
-        max-width: 400px;
-    }
-    
-     
-  }
 @media screen and (max-width:393px) {
       
       
@@ -428,23 +420,23 @@ margin: 0px;
   }
   @media screen and (max-width:350px)  {
 
-    main
-    {
-        width: 400px;
-    }
     
     .Nouveau_bloc
     {
      position: absolute;
-     right: -60px;
-     bottom: -110px; 
+     right: 10px;
+     bottom: -130px; 
     }
  
     .Nouveau_bloc2
     {
      position: absolute;
-     bottom: -530px;
-     left: 285px; 
+     bottom: -550px;
+     left: 210px; 
+    }
+    .Carte_choisissez
+    {
+        width: 250px;
     }
   }
   @media screen and (max-width:280px)
@@ -452,15 +444,15 @@ margin: 0px;
     .Nouveau_bloc
     {
      position: absolute;
-     left: 270px;
+     left: 170px;
      bottom: -320px; 
     }
  
     .Nouveau_bloc2
     {
      position: absolute;
-     bottom: -730px;
-     left: 275px; 
+     bottom: -740px;
+     left: 170px; 
     }
   }
   /* ***************************** BLOC NOUVEAU  1 & 2 **************************** */

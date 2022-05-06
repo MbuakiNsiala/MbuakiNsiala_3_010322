@@ -301,18 +301,6 @@ body
   
  }
  
- @media screen and (max-width:320px) 
- {
-     .conteneur_titledescription
-     {
-         font-size: 0.9em;
-         width: 77%;
-        
-     }
-
-     
-
- }
 
  @media screen and (max-width:280px) 
  {
@@ -320,13 +308,10 @@ body
    .conteneur_titledescription
    {
       
-       width: 76%;
-       
+   
+     font-size: 0.8em;
       
    }
  
-   .slide-left
-   {
-       width: 60px;
-   }
+  
  }

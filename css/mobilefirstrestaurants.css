@@ -134,6 +134,16 @@ body
      width: 220PX;
      
  }
+ .bloc-titre
+ {
+     margin-left: 5px;
+ }
+ .line-t
+ {
+     border: 1px solid #99E2D0;
+     width: 60px;
+     margin-bottom: 15px;
+ }
  .coeur
  {
      display: flex;
@@ -142,6 +152,7 @@ body
  .title_entree
  {
      font-weight: 400;
+     margin-bottom: 2px;
  }
  
  .title_epd

@@ -425,13 +425,13 @@ margin: 0px;
     {
      position: absolute;
      right: 10px;
-     bottom: -130px; 
+     bottom: -155px; 
     }
  
     .Nouveau_bloc2
     {
      position: absolute;
-     bottom: -550px;
+     bottom: -575px;
      left: 210px; 
     }
     .Carte_choisissez
@@ -454,6 +454,23 @@ margin: 0px;
      bottom: -740px;
      left: 170px; 
     }
+  }
+  @media screen and (min-width: 540px) 
+  {
+      .Nouveau_bloc
+      {
+         position: absolute;
+         bottom: -240px;
+         left: 420px;
+
+      }
+      .Nouveau_bloc2
+      {
+         position: absolute;
+         bottom: -660px;
+         left: 420px;
+
+      }
   }
   /* ***************************** BLOC NOUVEAU  1 & 2 **************************** */
 /* Calibrage bloc "nouveau" accueil pour Iphone xr samsung s20 ultra et galaxy A51/71 */

@@ -376,3 +376,20 @@ margin: 0px;
 }
 /*********** NOUVEAU BLOC *****************/
 
+@media screen and (min-width: 1280px) 
+{
+    .Nouveau_bloc
+    {
+       position: absolute;
+       bottom: 55px;
+       left: 70px;
+
+    }
+    .Nouveau_bloc2
+    {
+       position: absolute;
+       bottom: 55px;
+       right: 480px;
+
+    }
+}

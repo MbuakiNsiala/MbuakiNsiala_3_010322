@@ -271,7 +271,7 @@ body
  .conteneur_price_slide
  {
      display: flex;
-     align-items: center;
+     align-items: flex-end;
      justify-content: space-between;
      width: 180px;
      margin-right: -80px;
@@ -311,7 +311,14 @@ body
   
  }
  
-.title_bbottom
-{
-    border: 3px solid #99E2D0;
+
+@media screen and (max-width: 320px) {
+
+    .menu h2{
+        font-size: 0.95em;
+    }
+    
+    
+    
 }
+

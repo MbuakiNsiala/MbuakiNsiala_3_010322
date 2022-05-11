@@ -8,12 +8,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: disappear 200ms forwards; 
+    animation: disappear 200ms forwards ; 
     animation-delay: 3s;
-    font-size: 40px;
-    letter-spacing: 15px;
-    font-family: 'Shrikhand', cursive;
-    text-shadow: 6px 6px 6px #9356DC;
+   
       
 }
 .loader-quart
@@ -28,16 +25,6 @@
     
     
 }
-
-@keyframes disappear
-{
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(0);
-    }
-}
 @keyframes spin
 {
     0%{
@@ -48,6 +35,18 @@
        
     }
 }
+
+
+@keyframes disappear
+{
+    0%{
+        transform: scale(1 );
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+
 @keyframes pulsation
 {
  0% {
@@ -64,7 +63,7 @@
  }
 }
  /******************************\
- appear
+ appear apparition progressive
  \******************************/
  @keyframes appear
  {
@@ -78,6 +77,9 @@
          opacity: 1;
      }
  }
+ /******************************\
+ rotation slide
+ \******************************/
  @keyframes rotation
  {
      0%{
@@ -87,6 +89,10 @@
          transform: rotate(0deg);
      }
  }
+
+ /**************************\
+ SLIDE LEFT
+ \**************************/
 
  @-webkit-keyframes slide-left {
     0% {

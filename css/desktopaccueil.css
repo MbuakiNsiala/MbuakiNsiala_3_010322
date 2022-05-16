@@ -224,8 +224,8 @@ h1
 .Nouveau_bloc
 {
   position: absolute;
-  bottom: 165px;
-  left: 55px;
+  bottom: 190px;
+  left: 75px;
   background-color: #a9e0d1;
   border-radius: 5px;
   font-weight: bold;
@@ -241,8 +241,8 @@ h1
 .Nouveau_bloc2
 {
     position: absolute;
-    bottom: 165px;
-    right: 55px;
+    bottom: 190px;
+    right: 75px;
     background-color: #a9e0d1;
     border-radius: 5px;
     font-weight: bold;

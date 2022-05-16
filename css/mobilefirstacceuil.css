@@ -365,7 +365,23 @@ margin: 0px;
   
 }
 
-
+@media screen and (max-width:415px) {
+      
+      
+    .Nouveau_bloc
+    {
+     position: absolute;
+     right: 25px;
+     bottom: -70px; 
+    }
+ 
+    .Nouveau_bloc2
+    {
+     position: absolute;
+     bottom: -490px;
+     left: 285px; 
+    }
+  }
 
 @media screen and (max-width:393px) {
       

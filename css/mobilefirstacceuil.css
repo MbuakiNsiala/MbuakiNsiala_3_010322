@@ -51,10 +51,11 @@ form
 input
 {
     outline: none;
-    border: 2px solid #9356DC;
-    background-color: white;
-    border-radius: 15px;
-    height: 35px;
+    border: 2px solid transparent;
+    background-color: #F2F2F2;
+    font-size: 1.1em;
+    
+    
 }
 
 ::placeholder
@@ -188,9 +189,7 @@ h1
   
 }
 .fonc 
-{
-    padding-left: 20px;
-}
+{margin-left: 20px;}
 .section_restaurants_title
 {
     padding: 40px 20px 0px 20px;   

@@ -22,7 +22,7 @@ header
     background-color: white;  
     position: fixed;
     top: -15px;
-    height: 60px;
+    height: 50px;
     align-items: center;
     padding-top: 20px;
     z-index: 1;
@@ -52,17 +52,12 @@ form
     }
 input
 {
-   outline: none;
-   border: 2px solid #9356DC;
-   background-color: white;
-   border-radius: 15px;
-   height: 35px;
+    outline: none;
+    border: 2px solid transparent;
+    background-color: #F2F2F2;
+    font-size: 1em;
 }
-input:focus
-{
-  border: 2px solid #9356DC;
-  
-}
+
 ::placeholder
 {
     
@@ -158,6 +153,9 @@ h1
    
 
 }
+.fonc {
+    margin-left: 30px;
+}
 .Carte_icone
 {
     margin-right: 15px;
@@ -201,6 +199,7 @@ h1
 {
     display: flex;
     justify-content: space-between;
+    margin-left: 30px;
      
 }
 .conteneur_carte_restaurant
@@ -208,7 +207,6 @@ h1
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-   
     margin: auto;
     
     

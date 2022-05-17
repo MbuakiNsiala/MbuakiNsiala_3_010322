@@ -248,7 +248,8 @@ h1
     top: 1rem;
     right: 1rem;
     font-weight: bold;
-    color: green;
+    color: #1f997c;
+    animation: pulsation 1s infinite;
 }
 .has i:hover
 {

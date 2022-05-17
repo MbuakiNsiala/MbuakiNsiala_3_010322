@@ -221,7 +221,27 @@ h1
 }
 
     
-
+.new
+{
+    position: relative;
+}
+.new::before
+{
+    content: "Nouveau";
+    position: absolute;
+    height: 2rem;
+    width: 5rem;
+    background-color: #99E2D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+    color: #1f997c;
+    animation: pulsation 1s infinite;
+}
 .has i
 {
     position: relative;

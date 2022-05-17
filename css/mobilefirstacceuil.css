@@ -230,7 +230,14 @@ h1
    
     
 }
-
+.new
+{
+    position: relative;
+}
+.new::before
+{
+    content: "Nouveau";
+}
 .has i:hover
 {
  opacity: 1;

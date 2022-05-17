@@ -184,17 +184,19 @@ h1
 #section_restaurants
 {
     background-color: #F7F7F7;
+    
   
 }
 .section_restaurants_title
 {
-    padding-top: 40px;   
+    padding: 40px 20px 0px 20px;   
 }
 .conteneur_carte_restaurant
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding:0px 20px 0px 20px;
     
 }
 .carte_restaurant

@@ -210,40 +210,7 @@ h1
     margin-bottom: 30px;
     border-radius: 20px;
 }
-.Nouveau_bloc
-{
-  position: absolute;
-  right: 25px;
-  bottom: -30px;
-  background-color: #a9e0d1;
-  border-radius: 5px;
-  font-weight: bold;
-  color: #3b8468;
-  justify-content: center;
-  height: 40px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  animation: pulsation 1s linear infinite ;
-  
-}
-.Nouveau_bloc2
-{
-    position: absolute;
-    right: 25px;
-    bottom: -440px;
-    background-color: #a9e0d1;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #3b8468;
-    justify-content: center;
-    height: 40px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    animation: pulsation 1s linear infinite;
-    
-}
+
 .coeur
 {
     display: flex;
@@ -263,8 +230,6 @@ h1
    
     
 }
-
-
 
 .has i:hover
 {

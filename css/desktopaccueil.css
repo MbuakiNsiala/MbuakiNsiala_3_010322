@@ -219,40 +219,9 @@ h1
     border-radius: 20px;
     margin-bottom: 50px;
 }
-.Nouveau_bloc
-{
-  position: absolute;
-  bottom: 190px;
-  left: 75px;
-  background-color: #a9e0d1;
-  border-radius: 5px;
-  font-weight: bold;
-  color: #3b8468;
-  justify-content: center;
-  height: 40px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  animation: pulsation 1s linear infinite ;
-  
-}
-.Nouveau_bloc2
-{
-    position: absolute;
-    bottom: 190px;
-    right: 75px;
-    background-color: #a9e0d1;
-    border-radius: 5px;
-    font-weight: bold;
-    color: #3b8468;
-    justify-content: center;
-    height: 40px;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    animation: pulsation 1s linear infinite;
+
     
-}
+
 .has i
 {
     position: relative;
